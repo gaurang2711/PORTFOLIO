@@ -1,0 +1,37 @@
+body{
+background-color: rgb(115, 0, 255);
+cursor: url("cursor.png");
+overflow: hidden;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li{
+    padding: 0 150px;
+    border: 12px;
+    color: mediumturquoise;
+}
+.head{
+    margin: 0;
+    padding: 0;
+    color: white;
+    border-radius: 35px;
+    border-color: black;
+    text-align: center;
+}
